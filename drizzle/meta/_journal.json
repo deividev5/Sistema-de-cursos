@@ -1,0 +1,48 @@
+{
+  "version": "7",
+  "dialect": "postgresql",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "7",
+      "when": 1755094699819,
+      "tag": "0000_wealthy_la_nuit",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "7",
+      "when": 1755096238667,
+      "tag": "0001_lively_white_tiger",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "7",
+      "when": 1755180600428,
+      "tag": "0002_neat_mulholland_black",
+      "breakpoints": true
+    },
+    {
+      "idx": 3,
+      "version": "7",
+      "when": 1755180766233,
+      "tag": "0003_uneven_spirit",
+      "breakpoints": true
+    },
+    {
+      "idx": 4,
+      "version": "7",
+      "when": 1755183057214,
+      "tag": "0004_fixed_ben_parker",
+      "breakpoints": true
+    },
+    {
+      "idx": 5,
+      "version": "7",
+      "when": 1755184092660,
+      "tag": "0005_sleepy_morg",
+      "breakpoints": true
+    }
+  ]
+}
