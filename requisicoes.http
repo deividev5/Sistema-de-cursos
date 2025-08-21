@@ -1,8 +1,9 @@
 POST http://localhost:3333/courses
 Content-Type: application/json
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJiYjMyMWI1Ny1kOWI0LTQ1ZWEtOWY1Zi0zMTYxZTgwNWYwMDgiLCJyb2xlIjoibWFuYWdlciIsImlhdCI6MTc1NTY5NTAyNH0.PPcESWZ85iBjaGWSEpEYHS-yt_YSYDD5uA_RQBIc6Jg
 
 {"title":
-    "Cur"
+    "Curso de Python"
 }
 
 ###
@@ -12,4 +13,17 @@ GET http://localhost:3333/courses?orderBy=title
 
 ###
 
-GET http://localhost:3333/courses/ee71a829-93dd-4986-9dbb-3e074a5b2f78
+GET http://localhost:3333/courses/52879fca-95ff-4557-84f5-f032b3372a27
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJiYjMyMWI1Ny1kOWI0LTQ1ZWEtOWY1Zi0zMTYxZTgwNWYwMDgiLCJyb2xlIjoic3R1ZGVudCIsImlhdCI6MTc1NTY5MzMyN30.M-B2IQu7Rjs5obAUHzGoAvxzcezvinOr0GfReHG9RGI
+
+###
+
+POST http://localhost:3333/sessions
+Content-Type: application/json
+
+{
+    "email":"MariaHelena67@hotmail.com",
+    "password":"123456"
+
+}
+
